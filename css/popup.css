@@ -1,0 +1,118 @@
+#lean_overlay {
+    position: fixed;
+    z-index: 10000;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width:100%;
+    background: #000;
+    display: none;
+}
+
+
+/*---------------------------------------
+
+	EXAMPLES
+
+-----------------------------------------*/
+
+        .pop {
+
+     width: 404px;
+     padding-bottom: 2px;
+
+    display:none;
+
+
+    background: #FFF;
+        border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+        box-shadow: 0px 0px 4px rgba(0,0,0,0.7); -webkit-box-shadow: 0 0 4px rgba(0,0,0,0.7); -moz-box-shadow: 0 0px 4px rgba(0,0,0,0.7);
+       
+}
+
+        #test {
+     width: 600px;
+padding: 30px; 
+    display:none;
+
+
+    background: #FFF;
+        border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+        box-shadow: 0px 0px 4px rgba(0,0,0,0.7); -webkit-box-shadow: 0 0 4px rgba(0,0,0,0.7); -moz-box-shadow: 0 0px 4px rgba(0,0,0,0.7);
+       
+}
+
+#test p { color: #666; text-shadow: none; }
+
+.pop-header { background: url(../images/hd-bg.png); padding: 18px 18px 14px 18px; border-bottom: 1px solid #CCC; border-top-left-radius: 5px; -moz-border-radius-topleft: 5px; -webkit-border-top-left-radius: 5px; border-top-right-radius: 5px; -moz-border-radius-topright: 5px; -webkit-border-top-right-radius: 5px; text-align:center}
+
+.pop-header  h2 { color: #444; font-size: 18px; font-weight: 700; margin-bottom: 3px; text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5); }
+.pop-header  p { color: #444; font-size: 14px; margin: 0; text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5); text-shadow: none; }
+
+.pop .txt-fld { position: relative; width: 364px; padding: 14px 20px; border-bottom: 1px solid #EEE; text-align: right;word-wrap: break-word;
+word-break: break-all; }
+.pop .btn-fld { width: 254px; overflow: hidden; padding: 12px 20px 12px 130px; }
+.pop .btn-fld label{ font-size:14px; }
+
+.pop .txt-fld label { display: block; float: left; width: 90px; padding-top: 8px; color: #222; font-size: 14px; text-align: left;  }
+.pop .txt-fld input,textarea { width: 244px; padding: 8px; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; font-size: 14px; color: #222; background: #F7F7F7; outline: none; border-top: 1px solid #CCC; border-left: 1px solid #CCC; border-right: 1px solid #E7E6E6; border-bottom: 1px solid #E7E6E6; }
+.pop .txt-fld input.good_input { background: #DEF5E1 url(../images/good.png) 236px center no-repeat; }
+.pop .txt-fld input.error_input { background: #FDE0E0; }
+
+
+
+p.error { position: absolute; bottom: 48px; right: 20px; width: 262px; color: #FFF; font-size: 1.1em; padding-bottom: 5px; background: url(../images/error-arw.png) 20px bottom no-repeat; text-align: left; margin: 0; text-shadow: none; }
+p.error span { display: inline-block; background: #D43636; padding: 6px; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px;  }
+.txt-fld input:focus, .txt-fld textarea:focus { background-color: #FAF9DC; }
+        
+.save-btn {
+	float: right;
+	font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	background: #3F9D4A; 
+	border: none;
+  width: auto;
+  overflow: visible;
+  font-size: 16px;
+  color: #FFF;
+ padding: 7px 10px;  border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; font-weight: bold; text-shadow: 0 1px 0 rgba(0,0,0,0.4);}
+        
+.modal_close { position: absolute; top: 12px; right: 12px; display: block; width: 14px; height: 14px; background: url(../images/modal_close.png); z-index: 2; }
+
+
+.remind {
+	z-index: 5000;
+	position: fixed;
+	padding: 10px 30px;
+	min-height: 20px;
+	width: 300px;
+	background: #b2551c;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	box-shadow: 3px 3px 2px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 3px 3px 2px rgba(0,0,0,0.5);
+	-moz-box-shadow: 3px 3px 2px rgba(0,0,0,0.5);
+	text-align: center;
+	color: #fff;
+	display: none;
+	opacity: 0;
+}
+
+#enough p,#earn p,#new-earn p,#first-login p {
+	font-size: 20px;	
+}
+
+#not-enough p {
+	font-size: 15px;	
+}
+
+.remind p a {
+	font-weight:bold;
+	color: #90d3f9;
+}
+
+.remind p a:hover {
+	color: #70afd2;
+}
+
+

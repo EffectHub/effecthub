@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<configs>
+	<!-- The sourse code path-->
+	<dirPath>C:\Users\zpf\Desktop\SkeletonAnimationLibraryDemos\src</dirPath>
+	<!-- The result path-->
+	<!--
+	<outputPath>C:\www\CI\result</outputPath>
+	-->
+	<!--The library path which for compiling-->
+    
+	<libraryPath>/www/library/away3d.swc;/www/library/DragonBones.swc</libraryPath>
+    
+	<!--This item Must set to true,DO NOT change it-->
+	<staticLinkRuntimeSharedLibraries>true</staticLinkRuntimeSharedLibraries>
+	<!--Your flex SDK path ,please choose the bin fold ex:C:\flex_sdk_4.6\bin-->
+	<flexSDKPath>/www/sdk/bin</flexSDKPath>
+</configs>

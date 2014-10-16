@@ -1,0 +1,1045 @@
+div.item-info {
+	float:left;
+	width: 100%;
+	margin-top: 10px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background: #212121;
+}
+div.intro {
+	float: left;
+}
+div.description {
+	padding: 20px 20px 20px;
+	color: #aaa;
+	width: 600px;
+	font-size: 15px;
+}
+
+div.process {
+	padding: 20px;
+	width: 600px;
+}
+div.process a {
+	float: left;
+	margin: 10px 20px 10px 0;
+}
+div.tags {
+	width: 600px;
+	padding: 10px 20px 0;
+}
+div.tags p span {
+	font-size: 12px;
+	color: #aaa;
+}
+div.tags p a.tag {
+	float: left;
+	margin-left: 10px;
+	font-size: 12px;
+	color: #777;
+	font-weight: 100;
+}
+div.tags p a.tag:hover {
+	color: #aaa;
+}
+
+div.properties {
+	width: 200px;
+	float: right;
+	padding: 20px 100px 20px 20px;
+}
+div.using-tool {
+	width: 100%;
+}
+div.using-tool h3 {
+	float: left;
+}
+div.using-tool a {
+	float: right;
+	border: 2px solid #999;
+}
+div.history {
+	width: 100%;
+	float: left;
+	margin-top: 10px;
+}
+div.history h3 {
+	text-decoration: underline;
+}
+
+div.history div.history-text {
+	display: none;
+	background: #1c1c1c;
+	position: absolute;
+	padding: 20px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	z-index: 1000;
+}
+div.history:hover div.history-text {
+	display: block;
+}
+
+
+div.item-second {
+	padding: 20px;
+	background: #212121;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+div.screenshot-meta {
+	margin: 0;
+}
+
+div.more-comments {
+	color: #eee;
+	font-weight: bold;
+	width: 97%;
+	padding: 10px;
+	text-align: center;
+	background: #444;
+}
+div.more-comments:hover {
+	background: #555;
+	cursor: pointer;
+}
+div.group-main {
+	padding: 10px;
+	width: 97%;
+}
+div.group-header{
+	font-size: 18px;
+	margin-top: 10px;
+	min-width: 50%;
+}
+div.group-viewmine {
+	float: right;
+	margin-top: -15px;
+	font-size: 13px;
+	font-weight: bold;
+}
+div.group-hot {
+	margin-top: 10px;
+	margin-bottom: 30px;
+	width: 100%;
+}
+div.group-item {
+	padding: 10px 0 20px;
+	width: 100%;
+	border-top: 1px solid #555;
+	position: relative;
+}
+div.group-icon {
+	width: 100px;
+	overflow: hidden;
+}
+div.group-icon h5 {
+	margin-top: 5px;
+	text-align: center;
+	color: #ccc;
+	max-height: 35px;
+	overflow: hidden;
+}
+div.group-icon p {
+	margin-top: 5px;
+	text-align: center;
+	max-height: 35px;
+	overflow: hidden;
+}
+div.group-icon img {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+div.group-icon img.private {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	left: -5px;
+	top: 95px;
+}
+
+div.group-topic {
+	position: absolute;
+	top: 12px;
+	left: 130px;
+}
+div.group-topic-single {
+	width: 100%;
+	margin-bottom: 15px;
+	height: 20px;
+	position: relative;
+}
+div.group-topic-single span.t-link {
+	float: left;
+	height: 20px;
+	line-height: 20px;
+	overflow: hidden;
+}
+div.group-topic-single span.t-reply-time {
+	position: absolute;
+	right: 0px;
+	font-size: 12px;
+	color: #777;
+	text-align: right;
+	height: 100%;
+}
+div.view-topic {
+	position: absolute;
+	bottom: 10px;
+	right: 30px;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: underline;
+
+}
+div.view-topic a {
+	color: #999;
+}
+
+div.my-topic {
+	margin-top: 10px;
+	padding: 5px;
+	border-top: 1px solid #555;
+}
+div.topic-item {
+	width: 100%;
+	margin-top: 10px;
+	height: 40px;
+	position: relative;
+	width: 100%;
+}
+div.topic-item span.t-link {
+	position: absolute;
+	left: 50px;
+	height: 20px;
+	line-height: 20px;
+	overflow: hidden;
+}
+div.topic-item span.t-reply-time {
+	position: absolute;
+	top: 20px;
+	left: 50px;
+	font-size: 12px;
+	color: #777;
+}
+div.topic-item span.t-group {
+	position: absolute;
+	top: 2px;
+	right: 5px;
+	font-size: 13px;
+	line-height: 15px;
+	width: 120px;
+	font-weight: bold;
+	max-height:30px;
+	overflow: hidden;
+}
+div.topic-item span.t-group a {
+	color: #999;
+}
+div.topic-item span.t-group a:hover {
+	color: #777;
+}
+span.t-comment-num {
+	float: left;
+	padding: 2px 0px;
+	width: 40px;
+	margin-right: 5px;
+	color: #ddd;
+	text-align: center;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	background: #666;
+}
+
+div.group-hot p, div.my-topic p {
+	margin: 10px 30px 30px;
+	font-size: 16px;
+	font-style: italic;
+}
+div.my-group p {
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+div.cates-show {
+	margin-top: 20px;
+}
+
+li.mp-member-item {
+	position: relative;
+	width: 150px;
+}
+li.mp-member-item div img {
+	width: 12px;
+	height: 12px;
+	position: absolute;
+	left: 40px;
+	top: 40px;
+}
+li.mp-member-item div a {
+	color: #aaa;
+}
+span.numbers {
+	font-size: 18px;
+}
+div.topic-mine {
+	min-height: 500px;
+}
+
+div.hotest {
+	margin-top: 10px;
+	margin-bottom: 30px;
+	float: left;
+	clear: both;
+}
+div.hot-group {
+	float: left;
+	width: 230px;
+	margin: 10px 0 20px;
+	position: relative;
+}
+div.hot-group img.private {
+	width: 12px;
+	height: 12px;
+	position: absolute;
+	left: -3px;
+	top: 50px;
+}
+div.hot-group a img {
+	width: 60px;
+	height: 60px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+a.hot-group-title {
+	position: absolute;
+	left: 65px;
+	top: 2px;
+	max-width: 180px;
+	font-size: 15px;
+	/*overflow: hidden;
+	height: 18px;*/
+}
+span.mem-num {
+	position: absolute;
+	left: 65px;
+	top: 30px;
+	font-size: 12px;
+	color: #999;
+}
+span.topic-num {
+	position: absolute;
+	left: 65px;
+	top: 45px;
+	font-size: 12px;
+	color: #999;
+}
+div.hot-topic {
+	margin-top: 10px;
+	padding: 5px;
+	clear: both;
+}
+div.view-all-group {
+	margin-top: 30px;
+}
+div.view-all-group a {
+	font-weight: bold;
+}
+div.group-type {
+	margin-top: 30px;
+}
+div.group-type ul {
+	margin-top: 20px;
+}
+div.group-type li {
+	font-size: 13px;
+	padding: 5px;
+}
+div.group-type li a {
+	width: 100%;
+}
+div.group-type li.type-selected {
+	background: #4b4b4b;
+}
+
+.side-content {
+	z-index: 1000;
+	position: absolute;
+	left: 0px;
+	height: 100%;
+	width: 150px;
+	background: #222;
+	overflow: scroll;
+}
+.side-content h6 {
+	margin: 10px 0 10px 5px;
+}
+.side-content .recommend-item {
+	position: relative;
+}
+.side-content .recommend-item iframe {
+	width: 110px; 
+	height: 70px;
+	padding: 5px;
+	margin: 15px;
+	background: #333;
+}
+.side-content .recommend-item a {
+	position: absolute;
+	left: 15px;
+	top: 15px;
+	width: 120px;
+	height: 80px;
+	z-index: 1100;
+}
+.side-content a {
+	color: #4083a9;
+	float: right;
+}
+.side-content a:hover {
+	color: #205f82;
+}
+
+.side-button {
+	position: absolute;
+	left: 150px;
+	z-index: 1000;
+	width: 1%;
+	height: 100%;
+	background: #1a1a1a url(../images/icon-close.png) 50% 50% no-repeat;
+	
+	-moz-box-shadow: 2px 0px 2px #0b0b0b;
+	-webkit-box-shadow: 2px 0px 2px #0b0b0b;
+	box-shadow: 2px 0px 2px #0b0b0b;
+	
+}
+
+.side-button:hover {
+	cursor: pointer;
+}
+div.select-all {
+	margin-left: 20px;
+}
+ul.following {
+	position: relative;
+}
+
+li.following {
+	margin: 10px 5px;
+	/*width: 120px;
+	height: 120px;*/
+	display: inline-block;
+}
+li.following label {
+	position: relative;
+}
+
+li.following img {
+	position: absolute;
+	left: 23px;
+	width: 64px;
+	height: 64px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+li.following input {
+	position: absolute;
+	left: 10px;
+	top: 70px;
+}
+li.following p {
+	position: absolute;
+	left: 30px;
+	top: 70px;
+	width: 90px;
+	font-size: 12px;
+	color: #555;
+	text-align: left;
+	overflow: hidden;
+	text-overflow: ellipsis;	
+}
+
+
+div.team-main, div.team-explore {
+	padding: 10px;
+	width: 97%;
+	min-height: 500px;
+	overflow: hidden;
+}
+
+div.team-main div.single-team {
+	position: relative;
+	min-width: 500px;
+	width: 45%;
+	height: 150px;
+	margin: 15px 2%;
+	float: left;
+	background: #e2e2e2;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	position: relative;
+	overflow: hidden;
+}
+div.single-team a.team-link img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 150px;
+	height: 150px;
+	opacity: 0.35;
+	-webkit-transition: opacity 0.3s ease;
+	-moz-transition: opacity 0.3s ease;
+	-o-transition: opacity 0.3s ease;
+	transition: opacity 0.3s ease;
+}
+div.single-team div.team-name {
+	position: absolute;
+	width: 130px;
+	max-height: 75px;
+	left: 10px;
+	top: 30px;
+	color: #111;
+	text-align: center;
+	overflow: hidden;
+	font-size: 18px;
+	line-height: 25px;
+}
+div.single-team a.team-link img:hover {
+	opacity: 0.9;
+}
+
+div.team-main div.single-team div.team-leader {
+	position: absolute;
+	height: 19px;
+	width: 300px;
+	left: 160px;
+	top: 40px;
+	color: #333;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	font-size: 15px;
+	line-height: 16px;	
+}
+
+div.team-main div.single-team div.team-member {
+	position: absolute;
+	height: 16px;
+	left: 160px;
+	top: 70px;
+	color: #555;
+	font-size: 12px;
+	line-height: 16px;
+	
+}
+
+div.team-main div.single-team div.team-share {
+	position: absolute;
+	height: 16px;
+	left: 160px;
+	top: 90px;
+	color: #555;
+	font-size: 12px;
+	line-height: 16px;
+}
+
+div.single-team div.team-view {
+	position: absolute;
+	right: 15px;
+	bottom: 10px;
+	color: #999;
+	font-size: 10px;
+	height: 15px;
+}
+
+div.single-team div.team-view img {
+	width: 15px;
+	height: 10px;
+	position: relative;
+	top: 0px;
+	left: 5px;
+	opacity: 1;
+} 
+
+div.team-explore div.single-team {
+	position: relative;
+	min-width: 500px;
+	width: 100%;
+	height: 150px;
+	margin: 15px 0;
+	float: left;
+	background: #e2e2e2;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	position: relative;
+	overflow: hidden;
+}
+
+div.team-explore div.team-private {
+	position: absolute;
+	left: 52%;
+	top: 50px;
+	font-size: 24px;
+	font-weight: bold;
+	color: #555;
+}
+div.team-explore div.single-team div.team-leader {
+	position: absolute;
+	height: 19px;
+	width: 200px;
+	left: 33%;
+	top: 20px;
+	color: #333;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	font-size: 15px;
+	line-height: 16px;	
+}
+div.team-explore div.single-team div.team-description {
+	position: absolute;
+	left: 32%;
+	top: 50px;
+	font-size: 13px;
+	line-height: 15px;
+	max-height: 60px;
+	max-width: 200px;
+	color: #444;
+	overflow: hidden;
+
+}
+div.team-explore div.single-team div.team-member {
+	position: absolute;
+	right: 10px;
+	top: 20px;
+	font-size: 14px;
+	line-height: 15px;
+	color: #444;
+	width: 120px;
+}
+div.team-explore div.single-team div.team-member div.team-single{
+	margin-top: 5px;
+}
+
+div.team-explore div.single-team div.team-member div.team-single a {
+	margin: 0 5px 5px 0;
+	float: left;
+}
+div.team-explore div.single-team div.team-member div.team-single a img {
+	width: 20px;
+	height: 20px;
+}
+div.team-explore div.single-team div.team-share {
+	position: absolute;
+	right: 10px;
+	bottom: 35px;
+	height: 15px;
+	color: #555;
+	font-size: 12px;
+	line-height: 15px;
+}
+
+ul.team-tab {
+	margin: 0;
+	
+}
+div.team-subtitle {
+	width: 100%;
+	height: 25px;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 25px;
+	background: #555;
+	color: #ccc;
+	margin-bottom: 10px;
+}
+div.team-subtitle h5 {
+	margin-left: 20px;
+}
+
+p.no-share {
+	margin: 20px ;
+	font-size: 15px;
+	color: #ddd;
+	text-align: center;
+	height: 50px;
+}
+
+div.single-comment {
+	width: 100%;
+	position: relative;
+	padding: 20px 0px 30px;
+	border-bottom: 1px solid #666;
+}
+
+div.single-comment div.comment-user {
+	width: 100%;
+	position: relative;
+	height: 35px;
+}
+
+div.single-comment div.comment-user a.comment-img img {
+	width: 32px;
+	height: 32px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	float: left;
+	clear: both;
+}
+
+div.single-comment div.comment-user div.comment-username {
+	float: left;
+	padding-left: 10px;
+}
+
+div.single-comment div.comment-user div.comment-username a {
+	font-weight: bold;
+}
+
+div.single-comment div.comment-user div.comment-username span {
+	padding-left: 10px;
+	font-size: 11px;
+	color: #aaa;
+}
+div.single-comment div.comment-user div.comment-username a#comment-reply {
+	padding-left: 10px;
+	color: #ccc;
+	font-size: 12px;
+	cursor: pointer;
+}
+div.t-content {	
+	/*margin-left: 40px;*/
+	margin-top: 5px;
+	overflow: hidden;
+	
+}
+div.t-content div.useful-show{
+	float: left;
+	width: 35px;
+}
+div.t-content div img.up-img{
+	float: left;
+	postion: relative;
+	margin-left: 2px;
+	margin-top: 5px;
+	border: 1px ;	
+	width: 32px;
+	height: 32px;	
+	cursor:pointer;
+}
+div.t-content div p.useful-count{
+	float: left;
+	postion: relative;
+	margin-left: 2px;
+	margin-top: 5px;
+	text-align:center;	
+	font-size: 14px;	
+	width: 32px;
+	height: 5px;
+}
+div.t-content div img.down-img{
+	float: left;
+	postion: relative;
+	margin-left: 2px;
+	margin-top: 1px;	
+	width: 32px;
+	height: 32px;
+	cursor:pointer;
+}
+div.t-content p {
+	float: top;
+	postion: relative;
+	margin-left: 40px;
+	margin-top: 5px;	
+	font-size: 14px;
+	line-height: 20px;
+	color: #ccc;
+}
+
+div.single-reply {
+	width: 100%;
+	position: relative;
+	padding: 20px 0px 30px;	
+}
+
+div.single-reply div.reply-user {
+	width: 100%;
+	position: relative;
+	height: 35px;
+}
+
+div.single-reply div.reply-user a.reply-img img {
+	width: 32px;
+	height: 32px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	float: left;
+	clear: both;
+}
+
+div.single-reply div.reply-user div.reply-username {
+	float: left;
+	padding-left: 10px;
+}
+
+div.single-reply div.reply-user div.reply-username a {
+	font-weight: bold;
+}
+
+div.single-reply div.reply-user div.reply-username span {
+	padding-left: 10px;
+	font-size: 11px;
+	color: #aaa;
+}
+
+div.r-content {
+	margin-left: 40px;
+	margin-top: 5px;
+	overflow: hidden;
+	
+}
+div.r-content a.reply-link {
+	position: relative;
+	padding-left: 10px;
+	color: #ccc;
+	font-size: 12px;
+	cursor: pointer;
+	display: none;
+}
+div.t-content p {
+	font-size: 14px;
+	line-height: 20px;
+	color: #ccc;
+}
+
+div.parent-comment {
+	width: 90%;
+	margin: 5px 40px 10px;
+	background: #3c3c3c;
+	color: #aaa;
+	/*font-style: italic;*/
+	padding: 10px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	
+}
+div.parent-comment span {
+	width: 100%;
+	font-size: 12px;
+	line-height: 18px;
+}
+div.parent-comment p {
+	margin-top: 10px;
+	width: 100%;
+	font-size: 14px;
+	line-height: 16px;
+	color: #bbb;
+}
+
+div#reply-area {
+	margin: 10px 0 0 40px;
+	display: none;
+	
+}
+div#reply-area textarea {
+	resize: none;
+	width: 70%;
+}
+div#reply-area a {
+	position: relative;
+	left: 10px;
+	top: -12px;
+}
+
+div#answer-reply-area {
+	margin: 10px 0 0 40px;
+	display: block;
+	
+}
+div#answer-reply-area textarea {
+	resize: none;
+	width: 70%;
+}
+div#answer-reply-area a {
+	position: relative;
+	left: 10px;
+	top: -12px;
+}
+
+div#r-content textarea {
+	display: none;
+	resize: none;
+	width: 70%;
+}
+div#reply-reply-area a {
+	display: none;
+	position: relative;
+	left: 10px;
+	top: -12px;
+}
+
+div.notice-single {
+	padding: 15px 5px 10px;
+	color: #aaa;
+	font-size: 13px;
+	width: 100%;
+	border-bottom: solid 1px #444;
+	
+}
+
+p.member-position {
+	
+	position: absolute;
+	left: 65px;
+	top: 20px;
+	font-size: 13px;
+	color: #ccc;
+	
+}
+div.member-edit {
+	position: absolute;
+	left: 65px;
+	top: 45px;
+	font-size: 12px;
+}
+div.member-edit a {
+	color: #888;
+}
+div.member-edit a:hover {
+	color: #666;
+}
+div.team-member-edit {
+	padding: 10px;
+	z-index: 500;
+	position: fixed;
+	left: 30%;
+	top: 30%;
+	width: 350px;
+	height: 140px;
+	background: #f3f3f3;
+	border: 2px solid #999;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-box-shadow: 2px 2px 4px #111;
+	-webkit-box-shadow: 2px 2px 4px #111;
+	box-shadow: 2px 2px 2px #111;
+	font-size: 14px;
+	color: #555;
+	display: none;
+}
+div.team-member-edit p {
+	margin-bottom: 10px;
+	font-size: 15px;
+	color: #333;
+}
+div.edit-position, div.input-position {
+	width: 100%;
+	margin-bottom: 10px;	
+}
+label.edit-position, div.input-position label {
+	width: 100px;
+	float: left;
+	line-height: 25px;
+}
+select.edit-position {
+	width: 200px;
+	height: 25px;
+}
+div.input-position {
+	visibility: hidden;
+}
+div.input-position input {
+	width: 150px;
+	height: 18px;
+}
+div.position-button {
+	margin-top: 20px;
+	float: right;
+}
+div.position-button a {
+	padding: 5px 10px;
+	background: #e2e2e2;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	margin-right: 15px;
+}
+div.team-notice {
+	width: 100%;	
+}
+div.commentitem {
+	border-bottom: 1px solid #555;
+	padding-bottom: 30px;
+	margin-bottom: 15px;
+	position: relative;
+}
+div.commenttext {
+	margin: 10px 0 0 0px;
+	font-size:12px;
+}
+body#works div.commenttext {
+	margin: 10px 0 0 90px;
+	font-size:14px;
+}
+div.commenttext p.content-content {
+	margin: 5px 0 0 10px;
+	padding: 10px;
+	background: #444;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	font-size: 13px;
+	color: #aaa;
+	
+}
+
+#share ul.tabs li {
+position: relative;
+float: left;
+margin: 0 20px 0 0;
+line-height: 1;
+color: #bbb;
+}
+#share ul.tabs {
+margin: 0 0 15px 0;
+padding: 0;
+font-size: 14px;
+line-height: 1;
+}
+#share ul.tabs:after {
+content: ".";
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;
+}
+#share ul.tabs {
+margin-top: -2px;
+border-bottom: 1px solid #999;
+background: none;
+}
+#share ul.tabs li a {
+padding: 0 0 18px 0;
+}
+#share ul.tabs li a.selected{
+	font-weight: bold;
+background: url(../images/tab-on-2px.gif) repeat-x bottom left;
+}
+#share ul.tabs li a, #share ul.tabs li span.empty {
+display: block;
+text-decoration: none;
+}
+}
+

@@ -1,0 +1,21 @@
+<?php 
+//$lang['index_slogan_title'] = 'GET INSPIRED';
+$lang['index_slogan_title'] = '';
+//$lang['index_slogan'] = 'Working With Global Top Game Artists at EffectHub.com!';
+$lang['index_slogan'] = 'Gaming Artists are Sharing ';
+$lang['index_slogan1'] = 'Game Assets Here!';
+$lang['index_sign_up'] = 'Get Free Assets Box';
+$lang['index_sign_up_twitter'] = 'Sign up with Twitter account';
+$lang['index_sign_up_facebook'] = 'Sign up with Facebook account';
+$lang['index_sign_up_google'] = 'Sign up with Google account';
+$lang['index_rss'] = 'export RSS feed of recent works from EffectHub';
+$lang['index_all'] = 'All';
+$lang['effect_editor'] = 'Effect Editor';
+$lang['tab_item']='Item';
+$lang['tab_group']='Group';
+$lang['tab_topic']='Topic';
+$lang['tab_task']='Task';
+$lang['tab_tools']='Tools';
+$lang['globalsearch_result'] = 'Works searching result of ';
+$lang['globalsearch_authors'] = 'Search Authors';
+$lang['globalsearch_pop'] = 'Popular Search';

@@ -1,0 +1,74 @@
+<?php 
+$lang['tooladdlink_add_link'] = '添加链接';
+$lang['tooladdlink_back'] = '← 返回';
+$lang['tooladdlink_link_name'] = '链接名称';
+$lang['tooladdlink_url'] = '链接地址';
+$lang['tooladdlink_url_slogan'] = '该地址可以是下载链接，相关视频链接或者教程链接等';
+$lang['tooladdlink_description'] = '链接简介';
+$lang['tooladdlink_description_slogan'] = '介绍该链接的内容和用途';
+$lang['tooladdlink_error'] = '该栏不能为空';
+$lang['tooladdlink_save'] = '添加';
+$lang['toolcreate_title'] = '提交游戏工具或框架';
+$lang['toolcreate_tool_name'] = '工具名称';
+$lang['toolcreate_url_name'] = 'URL名称';
+$lang['toolcreate_url_name_slogan'] = '工具在Effecthub的网址: http://www.effecthub.com/t/';
+$lang['toolcreate_tool_description'] = '工具简介';
+$lang['toolcreate_platform_type'] = '平台/类别';
+$lang['toolcreate_platform_independent'] = '无特定平台';
+$lang['toolcreate_logo'] = '图标';
+$lang['toolcreate_logo_slogan'] = '300*300尺寸，png/jpg/gif格式';
+$lang['toolcreate_repository_url'] = '资源地址';
+$lang['toolcreate_repository_slogan'] = '开源框架的源码地址. 例如 Github/Googlecode中的资源库地址';
+$lang['toolcreate_submit'] = '分享';
+$lang['tooleditlink_edit_link'] = '编辑链接';
+$lang['tooleditlink_save'] = '完成';
+$lang['tooledit_title'] = '编辑工具';
+$lang['tooledit_update'] = '完成';
+$lang['toollist_unlogin_first'] = '提交你喜欢的游戏工具和引擎';
+$lang['toollist_unlogin'] = '与全世界的游戏设计师分享！';
+$lang['toollist_sign_up'] = '立刻提交';
+$lang['toollist_sign_up_twitter'] = '以Twitter账号注册';
+$lang['toollist_sign_up_facebook'] = '以Facebook账号注册';
+$lang['toollist_sign_up_google'] = '以Google账号注册';
+$lang['toollist_top'] = '最受欢迎';
+$lang['toollist_popular'] = '最热门';
+$lang['toollist_recent'] = '最近上传';
+$lang['toollist_submit'] = '上传&分享工具';
+$lang['toollist_all'] = '全部';
+$lang['toollist_members'] = '该工具的关联小组成员人数.点击进入该小组';
+$lang['toollist_topics'] = '查看该工具的小组话题';
+$lang['toollist_flash'] = '该工具适用于Flash平台';
+$lang['toollist_html5'] = '该工具适用于HTML5平台';
+$lang['toollist_unity'] = '该工具适用于Unity平台';
+$lang['toollist_opensource'] = '该工具是开源的';
+$lang['toollist_submitter'] = '分享者';
+$lang['tool_tool'] = '工具';
+$lang['tool_tool_type'] = '查看该分类的所有工具';
+$lang['tool_edit'] = '编辑';
+$lang['tool_add_link'] = '添加链接';
+$lang['tool_quit_group'] = '退出会员';
+$lang['tool_join_group'] = '成为会员';
+$lang['tool_about'] = '关于';
+$lang['tool_useful_link'] = '相关链接';
+$lang['tool_online_install'] = '在线安装';
+$lang['tool_parent_tool'] = '父工具';
+$lang['tool_sub_tools'] = '子工具';
+$lang['tool_submitter'] = '分享者';
+$lang['tool_submitted_at'] = '分享于';
+$lang['tool_recent_members'] = '最近加入的会员';
+$lang['tool_top_demos'] = '优秀作品';
+$lang['tool_submit_demo'] = '提交我的作品';
+$lang['tool_submit_showcase'] = '提交成功案例';
+$lang['tool_top_showcases'] = '成功案例';
+$lang['tool_recent_topics'] = '最新话题';
+$lang['tool_submit_topic'] = '发表话题';
+$lang['tool_more'] = '更多';
+$lang['tool_related_tools'] = '相关工具';
+$lang['tool_members'] = '会员';
+$lang['tool_topics'] = '话题';
+$lang['tool_donate'] = '捐赠';
+
+
+
+
+

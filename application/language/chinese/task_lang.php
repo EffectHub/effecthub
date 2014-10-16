@@ -1,0 +1,94 @@
+<?php 
+$lang['taskcreate_process'] = '分享我的创作经历 作品: ';
+$lang['taskcreate_create_task'] = '提问题 / 求素材';
+$lang['taskcreate_back'] = '← 返回';
+$lang['taskcreate_title'] = '任务标题';
+$lang['taskcreate_desc'] = '任务描述';
+$lang['taskcreate_type'] = '任务类型';
+$lang['taskcreate_tag'] = '标签';
+$lang['taskcreate_ask1'] = '提问题';
+$lang['taskcreate_ask2'] = '求素材';
+$lang['taskcreate_coin'] = '金币';
+$lang['taskcreate_cash'] = '现金';
+$lang['taskcreate_price'] = '我愿意出';
+$lang['taskcreate_have'] = '我现在有';
+$lang['taskcreate_create'] = '发布';
+$lang['taskcreate_want'] = '我想要';
+$lang['taskcreate_next'] = '下一步';
+$lang['taskcreate_error'] = '标题不能为空';
+$lang['taskcreate_attachments'] = '上传附件';
+$lang['taskedit_edit_task'] = '编辑任务';
+$lang['taskedit_update'] = '完成';
+$lang['taskmine_all_tasks'] = '我发布的全部任务';
+$lang['taskmine_all_responses'] = '我的所有回应';
+$lang['taskmine_last_replied'] = '最近评论';
+$lang['taskmine_none'] = '你还未发表任何任务.';
+$lang['taskmine_tasks'] = '个任务';
+$lang['taskmine_see_all_tasks'] = '>>浏览我的全部任务';
+$lang['task_edit'] = '编辑';
+$lang['task_delete'] = '删除';
+$lang['task_views'] = '浏览';
+$lang['task_comments'] = '回应';
+$lang['task_want_bid'] = '想一展身手?';
+$lang['task_place_bid'] = '给出我的答案';
+$lang['task_you_must'] = '你必须';
+$lang['task_sign_up'] = '登录';
+$lang['task_join_effecthub'] = '后才能发表评论.';
+$lang['task_reply'] = '回应';
+$lang['task_reply_comments'] = '评论';
+$lang['task_back'] = '>>返回 ';
+$lang['task_list'] = '所有任务列表';
+$lang['task_task'] = '任务';
+$lang['task_related_work'] = '关联作品';
+$lang['task_latest_tasks'] = '你可能感兴趣的任务';
+$lang['task_share'] = '分享';
+$lang['task_coin'] = '金币';
+$lang['task_coins'] = '金币';
+$lang['task_comment_fail'] = '评论失败！';
+$lang['task_input_blank'] = '评论不能为空';
+$lang['task_commenting'] = '发送评论...';
+
+$lang['task_not_enough'] = '您的金币或现金不足，请<a href="http://www.effecthub.com/donate" target="_blank">充值</a>';
+
+$lang['taskexplore_unlogin'] = '<strong style="font-size:20px">需要帮助？</strong>
+		<strong style="font-size:14px">创建任务，让全世界的游戏设计师来帮助你！</strong>';
+$lang['taskexplore_sign_up'] = '立刻求助';
+$lang['taskexplore_sign_up_twitter'] = '使用Twitter账号注册';
+$lang['taskexplore_sign_up_facebook'] = '使用Facebook账号注册';
+$lang['taskexplore_sign_up_google'] = '使用Google账号注册';
+$lang['taskexplore_responses'] = '回应';
+$lang['taskexplore_popular_responses'] = '最新任务';
+$lang['taskexplore_last_replied'] = '最近回应';
+$lang['taskexplore_my_tasks'] = '我的任务:';
+$lang['taskexplore_my_responses'] = '我的回应:';
+$lang['taskexplore_view_tasks'] = '分类浏览全部任务';
+$lang['taskexplore_view_comments'] = '浏览该任务的回应列表';
+
+$lang['bidcreate_create_bid'] = '我要回应';
+$lang['bidcreate_edit_bid'] = '编辑答案';
+$lang['bidcreate_desc'] = '描述';
+$lang['bidcreate_phone'] = '联系方式';
+$lang['bidcreate_attachments'] = '上传预览文件';
+$lang['bidcreate_source'] = '上传源文件';
+$lang['attachments_browse'] = '浏览';
+$lang['bidcreate_create'] = '立即回应';
+$lang['bidcreate_error'] = '此项不能为空';
+
+$lang['file_upload'] = '上传预览文件';
+$lang['file_forbidden'] = '只有任务发布者和任务回应者才能看到附件';
+$lang['file_best'] = '只有选定为最佳答案后任务发布者才能下载源文件';
+
+$lang['source_upload'] = '上传源文件';
+$lang['user_send_message'] = '发送消息';
+
+$lang['task_best_bid'] = '最佳答案';
+$lang['task_finished'] = '任务已结束';
+$lang['task_answers'] = '回应';
+$lang['task_views'] = '浏览';
+$lang['task_ipad'] = '金币兑换iPad！';
+$lang['task_golive'] = '即将上线...';
+$lang['task_question'] = '这是一个问题任务，每个人都能看到答案和下载附件。';
+$lang['task_askasset'] = '这是一个素材任务，只有任务发布者和回应者才能下载附件。';
+$lang['task_couldget'] = '完成这项任务，您将能获得 ';
+$lang['reply_call'] = '回复';
+$lang['fav_comment'] = '赞';

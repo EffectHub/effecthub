@@ -1,0 +1,151 @@
+<?php 
+$lang['login_with_email'] = 'Login With Your Email Address：';
+$lang['login_email'] = 'Email';
+$lang['login_email_error'] = 'Please input a valid email';
+$lang['login_password'] = 'Password';
+$lang['login_forgot'] = 'Forgot?';
+$lang['login_password_error'] = 'Please input your password';
+$lang['login_remember'] = 'Remeber Me';
+$lang['login_sign_in'] = 'Sign In';
+$lang['login_other_services'] = 'Or Login With One of These Services:';
+$lang['login_follow_effecthub'] = 'Follow <span class="meta">EffectHub</span>';
+$lang['login_effecthub_twitter'] = 'Effecthub on Twitter';
+$lang['login_effecthub_facebook'] = 'Effecthub on Facebook';
+$lang['login_effecthub_weibo'] = 'Effecthub on Weibo';
+$lang['login_mismatch'] = 'Your email and password is mismatch. Please try again.';
+$lang['callback_last_step'] = ', Your last step to join Effecthub.com:';
+$lang['callback_error'] = 'Your email or password is incorrect';
+$lang['callback_email'] = 'Email Address';
+$lang['callback_email_error'] = 'Please input a valid email address';
+$lang['callback_password'] = 'Set Password';
+$lang['callback_password_error'] = 'Password shoulb be at least 1 character';
+$lang['callback_share'] = 'Share to my friends!';
+$lang['callback_stay_informed'] = 'Stay informed via email';
+$lang['register_title'] = 'You can sign up with one of these services:';
+$lang['register_register_error'] = 'Email you input is already taken, please try another or login directly';
+$lang['register_spam_error'] = 'This email is a spam, please try another';
+$lang['register_ip_error'] = 'This IP is a spam, please try another or try later';
+$lang['register_robot_error'] = 'Your behavior is like a robot, please try later';
+$lang['register_verify_error'] = 'Verification code is incorrect';
+$lang['register_with_email'] = 'Or Sign Up with Email Address:';
+$lang['register_get_started'] = 'Get Started';
+$lang['emailcon_confirmation'] = 'Email Confirmation';
+$lang['emailcon_step'] = 'STEP 1';
+$lang['emailcon_content'] = "We've sent you an email with the following subject line:<br><br>
+    'EffectHub.com Email Confirmation'<br><br>
+    This email contains a link that will take you to a page where you can confirm your email.<br><br>
+    If you do not receive this email within a few minutes, check your spam folder, or <a href=".site_url('email/confirm').">send another request</a>.";
+$lang['emailconf_step'] = 'STEP 2';
+$lang['emailconf_content'] = "Congratulations!<br><br>
+    Your Email Confirmation finished successful!<br><br>
+    Now all the features of EffectHub.com are enabled for you.<br><br>
+    Go to <a href=".site_url('home').">Home Page</a><br><br>";
+$lang['forgot_retrieve'] = 'Retrieve Login Information';
+$lang['forgot_content1'] = 'Input the e-mail you are using for an Effecthub account.<br><br>
+    	We will locate your account information and send you an e-mail with a link to reset your password.<br><br>';
+$lang['forgot_enter_email'] = 'Input Your Email';
+$lang['forgot_submit'] = 'Submit';
+$lang['forgot_email_error'] = "The input email is wrong or doesn't exist, please try another one";
+$lang['forgot_content2'] = "We've sent you an email with the following subject line:<br><br>
+    'EffectHub.com Password Reset Notification'<br><br>
+    This email contains a link that will take you to a page where you can create a new password.<br><br>
+    If you do not receive this email within a few minutes, check your spam folder, or <a href=".site_url('user/forgot').">send another request</a>.<br><br>";
+$lang['forgot_step'] = 'STEP 3';
+$lang['forgot_change_password'] = 'Change Password';
+$lang['forgot_new_password'] = 'New Password';
+$lang['forgot_confirm_password'] = 'Confirm New Password';
+$lang['forgot_successful'] = 'Changing Password Successful.';
+$lang['notification_profile'] = 'My Profile';
+$lang['notification_mailbox'] = 'My Mailbox';
+$lang['notification_notification'] = 'Notification';
+$lang['notification_popular_authors'] = 'Popular Authors';
+$lang['notification_followers'] = 'Followers';
+$lang['notification_follow'] = 'Follow';
+$lang['settings_settings'] = 'Account Settings';
+$lang['settings_settings_slogan'] = 'Edit your profile, avatar, password etc.';
+$lang['settings_profile'] = 'Profile';
+$lang['settings_password'] = 'Password';
+$lang['settings_social'] = 'Link with My Social Accounts';
+$lang['settings_notification'] = 'Notifications';
+$lang['settings_display_name'] = 'Display Name';
+$lang['settings_display_name_slogan'] = 'Your name displayed on Effecthub!';
+$lang['settings_user_name'] = 'User Name';
+$lang['settings_user_name_slogan'] = 'Your EffectHub URL: http://www.effecthub.com/people/';
+$lang['settings_country'] = 'Country/Region';
+$lang['settings_select'] = 'Select';
+$lang['settings_website'] = 'Your Website';
+$lang['settings_website_slogan'] = 'Your home page, blog or company site, e.g. http://www.effecthub.com';
+$lang['settings_description'] = 'Self Introduction';
+$lang['settings_description_slogan'] = 'URLs are hyperlinked. Only anchor tags are allowed.';
+$lang['settings_update_settings'] = 'Update Settings';
+$lang['settings_saving_settings_successfully'] = 'Saving information successfully!';
+$lang['settings_current_password'] = 'Current Password';
+$lang['settings_current_password_error'] = 'Please input your current password';
+$lang['settings_new_password'] = 'New Password';
+$lang['settings_new_password_slogan'] = 'Please input your new password';
+$lang['settings_confirm_password'] = 'Confirm New Password';
+$lang['settings_change_password'] = 'Change Password';
+$lang['settings_set_password'] = 'Set a Password';
+$lang['settings_set_a_password'] = 'Set a Password';
+$lang['settings_would_like'] = 'I would like to';
+$lang['settings_stay_informed'] = 'Stay informed via email about Effecthub.com';
+$lang['settings_email_me'] = 'Email me when someone';
+$lang['settings_send_message'] = 'Sends me a message';
+$lang['settings_follow_me'] = 'Follows me';
+$lang['settings_invite_me'] = 'Invites me to join a group';
+$lang['settings_comment_me'] ='Comments in my work';
+$lang['settings_save'] = 'Save';
+$lang['settings_saving_notice_successfully'] = 'Saving successfully';
+$lang['settings_avatar'] = '<span class="meta">Your</span> Avatar';
+$lang['settings_browse'] = 'Browse';
+$lang['settings_browse_slogan'] = 'JPG, GIF or PNG; Max size of 2M';
+$lang['settings_upload'] = 'Upload Now';
+$lang['settings_cancel'] = 'Cancel';
+$lang['social_title'] = 'Linked to My Social Accounts';
+$lang['social_linked_accounts'] = 'Linked Accounts';
+$lang['social_linked'] = 'Linked';
+$lang['social_disconnect'] = 'Disconnect';
+$lang['social_connect'] = 'Connect';
+
+$lang['recharge_title'] = 'Payments Settings';
+$lang['recharge_slogan'] = 'Recharge your account to purchase coins or buy work directly';
+$lang['recharge_nav'] = 'Account Balance';
+$lang['recharge_exchange_coin'] = 'Purchase Coins (1:10)';
+$lang['recharge_coins'] = 'Coins';
+$lang['recharge_canbuy'] = 'I can exchange ';
+$lang['recharge_exchange_btn'] = 'Exchange';
+$lang['recharge_step1'] = 'Step1:';
+$lang['recharge_step2'] = 'Step2:';
+$lang['recharge_record'] = 'Recharge Records';
+$lang['recharge_account_notice'] = 'Please input payment information for review:';
+$lang['recharge_account_name'] = 'Full Name';
+$lang['recharge_account_email'] = 'Paypal Account';
+$lang['recharge_account_money'] = 'Transfer Amount';
+$lang['recharge_account_time'] = 'Time';
+$lang['recharge_account_status'] = 'Status';
+$lang['recharge_account_btn'] = 'Submit Request';
+$lang['recharge_error'] = 'Required Field';
+$lang['recharge_status1'] = 'Under Review';
+$lang['recharge_status2'] = 'Recharge Success';
+$lang['recharge_status3'] = 'Review Failed';
+$lang['withdraw_nav'] = 'Withdraw';
+$lang['withdraw_step1'] = 'Step1: Check My Balance';
+$lang['withdraw_step2'] = 'Step2: Submit Withdraw Request';
+$lang['withdraw_account_condition'] = 'You can withdraw when your balance more than $100.';
+$lang['withdraw_account_handing'] = 'A handling charge of 10% of the balance shall be paid.';
+$lang['withdraw_account_current'] = ' My current balance:';
+$lang['withdraw_account_notice'] = 'Please input withdraw information for review:';
+$lang['withdraw_account_money'] = 'Withdraw Amount';
+$lang['withdraw_account_btn'] = 'Submit Request';
+$lang['withdraw_record'] = 'Withdraw Records';
+
+$lang['download_nav'] = 'Download Records';
+$lang['download_record'] = 'My download records';
+$lang['download_item_name'] = 'Item Title';
+$lang['download_item_price'] = 'Price';
+$lang['download_item_price_type'] = 'Price Type';
+$lang['download_time'] = 'Timestamp';
+$lang['download_again'] = 'Download URL';
+$lang['download_coin'] = 'coin';
+
+

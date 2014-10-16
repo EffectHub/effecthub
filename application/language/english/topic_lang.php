@@ -1,0 +1,37 @@
+<?php 
+$lang['topiccreate_process'] = 'Write Down My Creative Process of the Work: ';
+$lang['topiccreate_create_topic'] = 'Create Topic';
+$lang['topiccreate_back'] = '← Back';
+$lang['topiccreate_title'] = 'Title (Required)';
+$lang['topiccreate_create'] = 'Create';
+$lang['topiccreate_error'] = 'Title can not be empty';
+$lang['topicedit_edit_topic'] = 'Edit Topic';
+$lang['topicedit_update'] = 'Update';
+$lang['topicmine_all_topics'] = 'All My Topics';
+$lang['topicmine_last_replied'] = 'Last replied';
+$lang['topicmine_none'] = "you haven't published any topic.";
+$lang['topicmine_topics'] = 'topics';
+$lang['topicmine_see_all_groups'] = '>>See all my groups';
+$lang['topic_edit'] = 'Edit';
+$lang['topic_delete'] = 'Delete';
+$lang['topic_views'] = 'views';
+$lang['topic_comments'] = 'comments';
+$lang['topic_post_comment'] = 'Post a Comment';
+$lang['topic_you_must'] = 'You must ';
+$lang['topic_sign_up'] = 'Sign up';
+$lang['topic_join_effecthub'] = 'as a member of Effecthub to join the conversation.';
+$lang['topic_see_article'] = 'as a member of Effecthub to view the content.';
+$lang['topic_reply'] = 'Reply';
+$lang['topic_back'] = '>>Back to ';
+$lang['topic_group'] = 'group';
+$lang['topic_related_work'] = 'Related Work';
+$lang['topic_latest_topics'] = 'Latest Topics';
+$lang['topic_share'] = 'Share';
+$lang['topic_coin'] = 'coin';
+$lang['topic_coins'] = 'coins';
+$lang['topic_comment_fail'] = 'Comment Fail!';
+$lang['topic_input_blank'] = 'Comment should not be blank';
+$lang['topic_commenting'] = 'Sending comment...';
+$lang['topic_tasks'] = 'They are waiting for your help';
+
+$lang['item_guess'] = 'Guess You Like';
